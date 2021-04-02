@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    tools:context=".MainActivity"
+    android:background="#00000000"
+    android:orientation="vertical"
+    android:layout_marginLeft="10dp">
+
+    <TextView
+        android:id="@+id/tvHour"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="Hour"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"
+        android:gravity="center"
+        android:layout_marginBottom="10dp"/>
+
+    <ImageView
+        android:id="@+id/ivCover"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@mipmap/ic_launcher"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/tvValue"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:text="27.6°"
+        android:textSize="20sp"
+        android:textColor="@color/teal_200"
+        android:gravity="center"
+        android:layout_marginTop="10dp"/>
+</LinearLayout>
