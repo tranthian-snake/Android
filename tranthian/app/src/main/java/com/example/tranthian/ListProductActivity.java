@@ -33,10 +33,5 @@ public class ListProductActivity extends AppCompatActivity {
         rvProduct=findViewById(R.id.rvProduct);
         rvProduct.setLayoutManager(layoutManager);
         rvProduct.setAdapter(adapter);
-        getAllProduct();
-    }
-    private List<ProductEntity> getAllProduct() {
-        List<ProductEntity> list=db.productDao().getAllProduct();
-        return list;
     }
 }
