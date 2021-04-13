@@ -15,7 +15,6 @@
         android:layout_weight="7"
         android:orientation="vertical">
         <TextView
-            android:id="@+id/tvName"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="Name:"
@@ -23,7 +22,6 @@
             android:textSize="20sp"
             android:textColor="#E8000000"/>
         <TextView
-            android:id="@+id/tvQuantity"
             android:layout_width="match_parent"
             android:layout_height="40dp"
             android:text="Quantity:"
