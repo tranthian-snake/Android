@@ -2,7 +2,7 @@ package com.example.weatherhanoi.model;
 
 public class Temperature {
     private float Value;
-    private   String Unit;
+    private String Unit;
 
 
     public float getValue() {

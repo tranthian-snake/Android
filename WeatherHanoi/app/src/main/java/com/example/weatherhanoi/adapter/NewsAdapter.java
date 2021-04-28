@@ -28,10 +28,10 @@ public class NewsAdapter extends RecyclerView.Adapter {
         this.list=list;
     }
 
-    public void reloadData(List<Weather> weathers){
-        this.list=list;
-        this.notifyDataSetChanged();
+    public void reloadData(List<Weather> list){
+        this.list = list;
     }
+
 
 
     @NonNull
