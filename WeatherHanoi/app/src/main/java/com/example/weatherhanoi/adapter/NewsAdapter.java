@@ -38,7 +38,7 @@ public class NewsAdapter extends RecyclerView.Adapter {
     @Override
     public RecyclerView.ViewHolder onCreateViewHolder(@NonNull ViewGroup parent, int viewType) {
         LayoutInflater inflater=activity.getLayoutInflater();
-        View itemView =activity.getLayoutInflater().inflate(R.layout.activity_main, parent, false);
+        View itemView =activity.getLayoutInflater().inflate(R.layout.activity_list_temperature, parent, false);
         NewsHolder holder=new NewsHolder(itemView);
         return holder;
     }
